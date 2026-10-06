@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your name</title>
+  <meta name="description" content="Personal site.">
+  <style>
+    :root {
+      --paper: #f6f1e8;
+      --ink: #1a1916;
+      --mute: #5e5a53;
+      --rule: #1a1916;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: light; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      font-size: 1.125rem;
+      line-height: 1.55;
+    }
+
+    .page {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 5rem;
+    }
+
+    header {
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.75rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 3.4rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+
+    .lede {
+      margin: 0.5rem 0 0;
+      color: var(--mute);
+    }
+
+    h2 {
+      margin: 1.75rem 0 0.45rem;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--mute);
+    }
+
+    p { margin: 0 0 0.85rem; }
+
+    a {
+      color: var(--ink);
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover { text-decoration-thickness: 2px; }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .links {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .links li { margin-bottom: 0.25rem; }
+
+    footer {
+      margin-top: 2.75rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--rule);
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.72rem;
+      color: var(--mute);
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Your name</h1>
+      <p class="lede">What you do, in one line.</p>
+    </header>
+
+    <h2>About</h2>
+    <p>
+      I write software. Sometimes I write about it. This page stays small on
+      purpose: who I am, what I am on, and how to reach me.
+    </p>
+
+    <h2>Now</h2>
+    <p>
+      This month: work, a side project, a book. Replace this sentence when it
+      stops being true.
+    </p>
+
+    <h2>Selected</h2>
+    <ul>
+      <li><a href="https://github.com/YOUR-HANDLE/project-one">Project one</a>, one clause on what it is</li>
+      <li><a href="https://github.com/YOUR-HANDLE/project-two">Project two</a>, one clause on what it is</li>
+    </ul>
+
+    <h2>Elsewhere</h2>
+    <ul class="links">
+      <li><a href="https://github.com/YOUR-HANDLE">GitHub</a></li>
+      <li><a href="mailto:you@example.com">you@example.com</a></li>
+      <li><a href="https://example.com">example.com</a></li>
+    </ul>
+
+    <footer>Updated September 2026</footer>
+  </main>
+</body>
+</html>
